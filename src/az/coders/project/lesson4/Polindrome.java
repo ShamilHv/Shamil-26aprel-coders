@@ -1,4 +1,6 @@
-package az.coders.project;
+package az.coders.project.lesson4;
+
+import az.coders.project.lesson4.String;
 
 import java.util.Scanner;
 

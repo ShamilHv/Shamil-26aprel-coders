@@ -1,4 +1,4 @@
-package az.coders.project;
+package az.coders.project.lesson4;
 
 import java.util.Scanner;
 
