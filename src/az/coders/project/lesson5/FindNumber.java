@@ -10,13 +10,11 @@ public class FindNumber {
         int number = rand.nextInt(100);
         System.out.println("Take a guess between 0 and 100: ");
         int guess=-2;
-        boolean cond= true;
         while (guess!=number) {
             System.out.println("Enter number:");
             guess = scan.nextInt();
             if (guess == number) {
                 System.out.println("You have found the number " + number);
-                cond=false;
             } else if (guess < number) {
                 System.out.println("higher");
             } else {
